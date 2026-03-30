@@ -25,8 +25,11 @@ Lean 4 / Mathlib formalization of the theorems in:
 
 1. Go to [aristotle.harmonic.fun](https://aristotle.harmonic.fun/dashboard/)
 2. Select **"Fill Sorries in a Lean file"**
-3. Upload `GameSelection.lean`
-4. Wait ~10–30 min for proof completion
+3. Upload proofs individually (one theorem per session works most reliably)
+4. Wait ~10–30 min per proof for completion
+
+> **Note:** Although uploading the full `GameSelection.lean` at once is possible in principle,
+> uploading individual theorems separately has proven more reliable in practice.
 
 ## Local Setup
 ```bash
